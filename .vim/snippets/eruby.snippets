@@ -3,6 +3,8 @@ snippet %
 	<%${1} %>
 snippet cf
 	<%= content_for ${1} %>
+snippet lt 
+	<%= link_to '${1}', ${2} %>
 snippet ren
 	<%= render '${1:partial}' %>
 snippet end
@@ -229,6 +231,10 @@ snippet table
 	</table>${4}
 snippet textarea
 	<textarea name="${1:Name}" rows="${2:8}" cols="${3:40}">${4}</textarea>${5}
+snippet ul
+	<ul class="${1:class}">
+		<li>${2:list item}</li>
+	</ul>
 snippet li
 	<li class="${1:class}">${2:list item}</li>
 snippet th

@@ -1,8 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/rich/work/cricket/config'
-let g:netrw_dirhist_2='/home/rich/work/cricket'
-let g:netrw_dirhist_3='/home/rich/work/cricket/lib'
-let g:netrw_dirhist_4='/home/rich/work/cricket'
-let g:netrw_dirhist_5='/home/rich/work/cricket/spec'
-let g:netrw_dirhist_6='/home/rich/work/cricket/spec/requests'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/rich/work/cricket/app/views/module_definitions'
