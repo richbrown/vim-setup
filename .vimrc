@@ -10,3 +10,4 @@ set shiftwidth=2
 if has("autocmd")
 	filetype indent on
 endif
+autocmd BufEnter * if &filetype == "" | setlocal filetype=html | endif

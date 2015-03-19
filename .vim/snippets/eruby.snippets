@@ -3,6 +3,8 @@ snippet %
 	<%${1} %>
 snippet cf
 	<%= content_for ${1} %>
+snippet ff
+	<%= form_for ${1} %>
 snippet lt 
 	<%= link_to '${1}', ${2} %>
 snippet ren
@@ -174,9 +176,13 @@ snippet base
 snippet r
 	<br`Close()[1:]`>
 snippet div
-	<div id="${1:name}">
+	<div class="${1:name}">
 		${2}
 	</div>
+snippet p 
+	<p class="${1:name}">
+		${2}
+	</p>
 # Embed QT Movie
 snippet movie
 	<object width="$2" height="$3" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"
