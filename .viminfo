@@ -17,13 +17,13 @@
 $
 
 # Command Line History (newest to oldest):
+:q
 :w
 :Ex
 :tabnew 
 :wq
 :e
 :tabnew accounts.txt
-:q
 :tabnew accounts.text
 :y
 :HTTP.Post.new(uri)
@@ -244,18 +244,20 @@ $
 	3
 
 # File marks:
-'0  20  9  ~/work/finder/say_hello.rb
-'1  31  3  ~/work/cricket/app/views/doorman/account/sessions/new.html.erb
-'2  19  13  ~/work/cricket/app/assets/javascripts/sentence_selectors.js.coffee
-'3  103  0  ~/work/cricket/spec/features/courses/edit_a_course_spec.rb
-'4  7  0  ~/work/great_new_app/contributors.txt
-'5  1  0  ~/work/great_new_app/contributors.txt
-'6  6  3  ~/work/great_new_app/contributors.txt
-'7  7  3  ~/work/other_peoples_apps/great_new_app/contributors.txt
-'8  6  0  ~/work/other_peoples_apps/great_new_app/contributors.txt
-'9  1  0  ~/work/great_new_app/.git/COMMIT_EDITMSG
+'0  3  3  ~/.gitignore
+'1  20  9  ~/work/finder/say_hello.rb
+'2  31  3  ~/work/cricket/app/views/doorman/account/sessions/new.html.erb
+'3  19  13  ~/work/cricket/app/assets/javascripts/sentence_selectors.js.coffee
+'4  103  0  ~/work/cricket/spec/features/courses/edit_a_course_spec.rb
+'5  7  0  ~/work/great_new_app/contributors.txt
+'6  1  0  ~/work/great_new_app/contributors.txt
+'7  6  3  ~/work/great_new_app/contributors.txt
+'8  7  3  ~/work/other_peoples_apps/great_new_app/contributors.txt
+'9  6  0  ~/work/other_peoples_apps/great_new_app/contributors.txt
 
 # Jumplist (newest first):
+-'  3  3  ~/.gitignore
+-'  1  0  ~/.gitignore
 -'  20  9  ~/work/finder/say_hello.rb
 -'  21  3  ~/work/finder/say_hello.rb
 -'  11  0  ~/work/finder
@@ -320,8 +322,47 @@ $
 -'  3  2  ~/work/great_new_app/contributors.txt
 -'  21  45  ~/work/cricket/app/assets/javascripts/sentence_selectors.js.coffee
 -'  12  0  ~/work/cricket/app/assets/javascripts/sentence_selectors.js.coffee
+-'  20  9  ~/work/finder/say_hello.rb
+-'  21  3  ~/work/finder/say_hello.rb
+-'  11  0  ~/work/finder
+-'  8  0  ~/work/finder/spec
+-'  75  0  ~/work/finder/accounts.txt
+-'  1  0  ~/work/finder/accounts.txt
+-'  10  0  ~/work/finder
+-'  16  0  ~/work/finder/spec
+-'  1  0  ~/work/finder/spec/accounts.txt
+-'  1  0  ~/work/finder/say_hello.rb
+-'  21  0  ~/work/finder
+-'  36  0  ~/work/finder/say_hello.rb
+-'  28  0  ~/work/finder
+-'  19  0  ~/work
+-'  24  0  ~/work/finder/spec
+-'  29  0  ~/work/finder
+-'  31  0  ~/work/finder/spec
+-'  30  0  ~/work/finder/spec/say_hello.rb
+-'  24  0  ~/work/finder/spec/say_hello.rb
+-'  1  5  ~/work/finder/spec/say_hello.rb
+-'  28  23  ~/work/finder/spec/say_hello.rb
+-'  3  4  ~/work/finder/spec/say_hello.rb
+-'  38  0  ~/work/finder/spec
+-'  3  0  ~/work/finder/spec/look_up_spec.rb
+-'  8  6  ~/work/finder/spec/look_up_spec.rb
+-'  4  21  ~/work/finder/spec/look_up_spec.rb
+-'  68  0  ~/work/finder/spec
+-'  1  0  ~/work/finder/spec/spec_helper.rb
+-'  76  0  ~/work/finder/spec
+-'  31  3  ~/work/cricket/app/views/doorman/account/sessions/new.html.erb
+-'  9  0  ~/work/cricket/app/views/doorman/account/sessions
+-'  59  15  ~/work/cricket/app/views/shared/_main_navigation.html.erb
+-'  17  0  ~/work/cricket/app/views/shared/_main_navigation.html.erb
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	3	3
+	^	3	4
+	.	3	3
+	+	3	3
 
 > ~/work/finder/spec/look_up_spec.rb
 	"	3	0
@@ -2049,8 +2090,3 @@ $
 	+	2	20
 	+	6	38
 	+	9	20
-
-> ~/work/cricket/app/views/sessions/new.html.erb
-	"	18	23
-	.	18	23
-	+	18	23
