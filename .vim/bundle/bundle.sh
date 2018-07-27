@@ -1,0 +1,13 @@
+git clone https://github.com/Raimondi/delimitMate.git
+git clone https://github.com/garbas/vim-snipmate.git 
+git clone https://github.com/MarcWeber/vim-addon-mw-utils.git
+git clone https://github.com/vim-airline/vim-airline-themes.git
+git clone https://github.com/vim-airline/vim-airline.git
+git clone https://github.com/altercation/vim-colors-solarized.git
+git clone https://github.com/tpope/vim-fugitive.git
+git clone https://github.com/pangloss/vim-javascript.git
+git clone https://github.com/mustache/vim-mustache-handlebars.git
+git clone https://github.com/tpope/vim-sensible.git
+git clone https://github.com/honza/vim-snippets.git
+git clone https://github.com/tomtom/tlib_vim.git
+git clone https://github.com/tpope/vim-surround.git
